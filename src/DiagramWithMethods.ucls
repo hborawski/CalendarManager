@@ -1,0 +1,999 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.2" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="com.std.util.range.WeekRange" project="CalendarManager" 
+    file="/CalendarManager/src/com/std/util/range/WeekRange.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="170" width="183" x="666" y="3188"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.std.controller.dialog.AppointmentDialog" project="CalendarManager" 
+    file="/CalendarManager/src/com/std/controller/dialog/AppointmentDialog.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="548" width="366" x="3667" y="752"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.std.model.CalendarModelUtility" project="CalendarManager" 
+    file="/CalendarManager/src/com/std/model/CalendarModelUtility.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="386" width="444" x="331" y="290"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.std.view.block.MonthlyDayBlock" project="CalendarManager" 
+    file="/CalendarManager/src/com/std/view/block/MonthlyDayBlock.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="242" width="338" x="5467" y="1928"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.std.model.CalendarModel.ElementObserver" project="CalendarManager" 
+    file="/CalendarManager/src/com/std/model/CalendarModel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="98" width="199" x="4750" y="1340"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.std.util.ObservableSet.InternalSet" project="CalendarManager" 
+    file="/CalendarManager/src/com/std/util/ObservableSet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="170" width="251" x="4137" y="1928"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.std.controller.dialog.DateDialog.PreviousMonthListener" 
+    project="CalendarManager" file="/CalendarManager/src/com/std/controller/dialog/DateDialog.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="98" width="215" x="1372" y="752"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="com.std.model.appointment.AppointmentTemplate" project="CalendarManager" 
+    file="/CalendarManager/src/com/std/model/appointment/AppointmentTemplate.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="512" width="283" x="3814" y="1928"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="com.std.view.panel.AppointmentPanel" project="CalendarManager" 
+    file="/CalendarManager/src/com/std/view/panel/AppointmentPanel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="404" width="303" x="6601" y="1340"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="com.std.view.panel.MonthlyPanel" project="CalendarManager" 
+    file="/CalendarManager/src/com/std/view/panel/MonthlyPanel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="134" width="338" x="5467" y="1340"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="com.std.util.ObservableSet.InternalIterator" project="CalendarManager" 
+    file="/CalendarManager/src/com/std/util/ObservableSet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="170" width="174" x="4428" y="1928"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="com.std.model.CalendarModel" project="CalendarManager" 
+    file="/CalendarManager/src/com/std/model/CalendarModel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="404" width="344" x="4428" y="752"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="Driver" project="CalendarManager" file="/CalendarManager/src/Driver.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="98" width="125" x="815" y="290"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="com.std.view.CalendarMenu" project="CalendarManager" 
+    file="/CalendarManager/src/com/std/view/CalendarMenu.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="530" width="297" x="6944" y="1340"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="com.std.controller.dialog.DateDialog.NextMonthListener" project="CalendarManager" 
+    file="/CalendarManager/src/com/std/controller/dialog/DateDialog.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="98" width="215" x="1627" y="752"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="com.std.model.pattern.NDaysPattern" project="CalendarManager" 
+    file="/CalendarManager/src/com/std/model/pattern/NDaysPattern.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="206" width="231" x="278" y="2690"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="com.std.controller.dialog.DurationUpdateListener" project="CalendarManager" 
+    file="/CalendarManager/src/com/std/controller/dialog/DurationUpdateListener.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="134" width="324" x="629" y="752"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="com.std.controller.dialog.DateDialog.OKListener" project="CalendarManager" 
+    file="/CalendarManager/src/com/std/controller/dialog/DateDialog.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="98" width="215" x="1882" y="752"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="com.std.controller.dialog.AppointmentDialog.NoPatternButtonListener" 
+    project="CalendarManager" file="/CalendarManager/src/com/std/controller/dialog/AppointmentDialog.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="98" width="215" x="2902" y="1340"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="com.std.controller.dialog.DateDialog.PreviousYearListener" 
+    project="CalendarManager" file="/CalendarManager/src/com/std/controller/dialog/DateDialog.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="98" width="215" x="2137" y="752"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="com.std.model.appointment.AppointmentUtility" project="CalendarManager" 
+    file="/CalendarManager/src/com/std/model/appointment/AppointmentUtility.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="188" width="440" x="980" y="290"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="ZachsCrappyTogglDay.ToggleDayBlock" project="CalendarManager" 
+    file="/CalendarManager/src/ZachsCrappyTogglDay/ToggleDayBlock.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="224" width="338" x="1460" y="290"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="com.std.controller.dialog.NDaysDialog" project="CalendarManager" 
+    file="/CalendarManager/src/com/std/controller/dialog/NDaysDialog.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="224" width="311" x="278" y="752"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="com.std.model.CalendarModel.SetObserver" project="CalendarManager" 
+    file="/CalendarManager/src/com/std/model/CalendarModel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="98" width="199" x="4989" y="1340"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="com.std.model.CalendarModel.ApptObservableSet" project="CalendarManager" 
+    file="/CalendarManager/src/com/std/model/CalendarModel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="134" width="274" x="4881" y="1928"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="com.std.controller.dialog.DayOfWeekDialog.OKActionListener" 
+    project="CalendarManager" file="/CalendarManager/src/com/std/controller/dialog/DayOfWeekDialog.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="98" width="215" x="1033" y="1340"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="com.std.util.range.GridMonthRange" project="CalendarManager" 
+    file="/CalendarManager/src/com/std/util/range/GridMonthRange.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="170" width="212" x="889" y="3188"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface id="28" language="java" name="com.std.view.block.DayBlock" project="CalendarManager" 
+    file="/CalendarManager/src/com/std/view/block/DayBlock.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="80" width="114" x="5656" y="2480"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <class id="29" language="java" name="com.std.controller.dialog.DateDialog.AmPmListener" project="CalendarManager" 
+    file="/CalendarManager/src/com/std/controller/dialog/DateDialog.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="98" width="215" x="2392" y="752"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="30" language="java" name="com.std.view.panel.WeeklyPanel" project="CalendarManager" 
+    file="/CalendarManager/src/com/std/view/panel/WeeklyPanel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="134" width="338" x="5845" y="1340"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="31" language="java" name="ZachsCrappyTogglDay.AppointmentBlock" project="CalendarManager" 
+    file="/CalendarManager/src/ZachsCrappyTogglDay/AppointmentBlock.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="152" width="275" x="16" y="290"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="32" language="java" name="com.std.model.CalendarModel.ApptTmplSetObserver" project="CalendarManager" 
+    file="/CalendarManager/src/com/std/model/CalendarModel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="98" width="199" x="5228" y="1340"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="33" language="java" name="com.std.util.range.MonthRange" project="CalendarManager" 
+    file="/CalendarManager/src/com/std/util/range/MonthRange.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="152" width="189" x="1141" y="3188"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="34" language="java" name="com.std.view.CalendarView" project="CalendarManager" 
+    file="/CalendarManager/src/com/std/view/CalendarView.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="494" width="366" x="6223" y="752"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="35" language="java" name="com.std.controller.dialog.DateDialog.GridActionListener" 
+    project="CalendarManager" file="/CalendarManager/src/com/std/controller/dialog/DateDialog.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="116" width="215" x="2647" y="752"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="36" language="java" name="com.std.util.GroupLayoutUtility" project="CalendarManager" 
+    file="/CalendarManager/src/com/std/util/GroupLayoutUtility.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="134" width="401" x="1838" y="290"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="37" language="java" name="com.std.controller.CalendarController" project="CalendarManager" 
+    file="/CalendarManager/src/com/std/controller/CalendarController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="242" width="305" x="5326" y="290"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="38" language="java" name="com.std.controller.dialog.DateDialog.NextYearListener" project="CalendarManager" 
+    file="/CalendarManager/src/com/std/controller/dialog/DateDialog.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="98" width="215" x="2902" y="752"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="39" language="java" name="com.std.controller.dialog.AppointmentDialog.DayOfWeekButtonListener" 
+    project="CalendarManager" file="/CalendarManager/src/com/std/controller/dialog/AppointmentDialog.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="98" width="215" x="3157" y="1340"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="40" language="java" name="com.std.util.range.DayRange" project="CalendarManager" 
+    file="/CalendarManager/src/com/std/util/range/DayRange.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="152" width="165" x="1370" y="3188"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="41" language="java" name="com.std.controller.dialog.AppointmentDialog.NDaysButtonListener" 
+    project="CalendarManager" file="/CalendarManager/src/com/std/controller/dialog/AppointmentDialog.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="98" width="215" x="3412" y="1340"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="42" language="java" name="com.std.controller.dialog.NDaysDialog.OKActionListener" project="CalendarManager" 
+    file="/CalendarManager/src/com/std/controller/dialog/NDaysDialog.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="98" width="215" x="318" y="1340"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="43" language="java" name="com.std.controller.dialog.AppointmentDialog.OKListener" project="CalendarManager" 
+    file="/CalendarManager/src/com/std/controller/dialog/AppointmentDialog.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="98" width="215" x="3667" y="1340"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="44" language="java" name="com.std.model.pattern.DayOfWeekPattern" project="CalendarManager" 
+    file="/CalendarManager/src/com/std/model/pattern/DayOfWeekPattern.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="458" width="255" x="1269" y="2690"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="45" language="java" name="com.std.util.range.DateRange" project="CalendarManager" 
+    file="/CalendarManager/src/com/std/util/range/DateRange.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="350" width="177" x="1017" y="2690"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="46" language="java" name="ZachsCrappyTogglDay.AppointmentLabel" project="CalendarManager" 
+    file="/CalendarManager/src/ZachsCrappyTogglDay/AppointmentLabel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="134" width="222" x="16" y="752"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="47" language="java" name="com.std.view.block.WeeklyDayBlock" project="CalendarManager" 
+    file="/CalendarManager/src/com/std/view/block/WeeklyDayBlock.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="224" width="338" x="5845" y="1928"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="48" language="java" name="com.std.model.appointment.RefAppointment" project="CalendarManager" 
+    file="/CalendarManager/src/com/std/model/appointment/RefAppointment.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="548" width="424" x="3922" y="1340"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="49" language="java" name="com.std.controller.dialog.DateDialog.MinuteListener" project="CalendarManager" 
+    file="/CalendarManager/src/com/std/controller/dialog/DateDialog.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="98" width="215" x="3157" y="752"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="50" language="java" name="com.std.model.pattern.RecurrencePattern" project="CalendarManager" 
+    file="/CalendarManager/src/com/std/model/pattern/RecurrencePattern.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="170" width="231" x="1017" y="2480"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="51" language="java" name="com.std.view.panel.DailyPanel" project="CalendarManager" 
+    file="/CalendarManager/src/com/std/view/panel/DailyPanel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="134" width="338" x="6223" y="1340"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="52" language="java" name="com.std.util.ObservableSet.ElementObserver" project="CalendarManager" 
+    file="/CalendarManager/src/com/std/util/ObservableSet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="98" width="199" x="4642" y="1928"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="53" language="java" name="com.std.controller.dialog.DatePanel" project="CalendarManager" 
+    file="/CalendarManager/src/com/std/controller/dialog/DatePanel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="242" width="257" x="715" y="1340"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="54" language="java" name="com.std.view.CalendarView.TABBED_STATE" project="CalendarManager" 
+    file="/CalendarManager/src/com/std/view/CalendarView.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="134" width="184" x="7281" y="1340"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="55" language="java" name="com.std.controller.dialog.DatePanel.EllipsisActionListener" 
+    project="CalendarManager" file="/CalendarManager/src/com/std/controller/dialog/DatePanel.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="98" width="215" x="715" y="1928"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="56" language="java" name="com.std.controller.dialog.DateDialog.HourListener" project="CalendarManager" 
+    file="/CalendarManager/src/com/std/controller/dialog/DateDialog.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="98" width="215" x="3412" y="752"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="57" language="java" name="com.std.view.block.AppointmentBlock" project="CalendarManager" 
+    file="/CalendarManager/src/com/std/view/block/AppointmentBlock.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="170" width="269" x="4073" y="752"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="58" language="java" name="com.std.controller.dialog.DayOfWeekDialog" project="CalendarManager" 
+    file="/CalendarManager/src/com/std/controller/dialog/DayOfWeekDialog.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="224" width="339" x="993" y="752"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="59" language="java" name="com.std.controller.dialog.DateDialog" project="CalendarManager" 
+    file="/CalendarManager/src/com/std/controller/dialog/DateDialog.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="422" width="181" x="2542" y="290"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="60" language="java" name="com.std.util.ObservableSet" project="CalendarManager" 
+    file="/CalendarManager/src/com/std/util/ObservableSet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="368" width="251" x="4428" y="1340"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="61" language="java" name="ZachsCrappyTogglDay.TimeBlock" project="CalendarManager" 
+    file="/CalendarManager/src/ZachsCrappyTogglDay/TimeBlock.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="116" width="223" x="2279" y="290"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <nesting id="62">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="42"/>  
+  </nesting>  
+  <realization id="63">    
+    <end type="SOURCE" refId="47"/>    
+    <end type="TARGET" refId="28"/>  
+  </realization>  
+  <association id="64">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="65" name="curAppt"/>      
+      <multiplicity id="66" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="48" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="67">    
+    <end type="SOURCE" refId="60"/>    
+    <end type="TARGET" refId="52"/>  
+  </nesting>  
+  <nesting id="68">    
+    <end type="SOURCE" refId="60"/>    
+    <end type="TARGET" refId="6"/>  
+  </nesting>  
+  <association id="69">    
+    <bendpoint x="4397" y="1340"/>    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="70" name="apptTmplSet"/>      
+      <multiplicity id="71" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="72">    
+    <end type="SOURCE" refId="59"/>    
+    <end type="TARGET" refId="7"/>  
+  </nesting>  
+  <association id="73">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="74" name="recPattern"/>      
+      <multiplicity id="75" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="50" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="76">    
+    <end type="SOURCE" refId="53"/>    
+    <end type="TARGET" refId="55"/>  
+  </nesting>  
+  <nesting id="77">    
+    <end type="SOURCE" refId="59"/>    
+    <end type="TARGET" refId="18"/>  
+  </nesting>  
+  <association id="78">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="79" name="appt"/>      
+      <multiplicity id="80" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="48" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="81">    
+    <end type="SOURCE" refId="40"/>    
+    <end type="TARGET" refId="45"/>  
+  </generalization>  
+  <association id="82">    
+    <bendpoint x="4376" y="1340"/>    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="83" name="defaultApptTmpl"/>      
+      <multiplicity id="84" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="85">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="86" name="blocks"/>      
+      <multiplicity id="87" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="88">    
+    <end type="SOURCE" refId="48" navigable="false">      
+      <attribute id="89" name="parent"/>      
+      <multiplicity id="90" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="91">    
+    <end type="SOURCE" refId="58" navigable="false">      
+      <attribute id="92" name="startDate"/>      
+      <multiplicity id="93" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="53" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="94">    
+    <end type="SOURCE" refId="37" navigable="false">      
+      <attribute id="95" name="theView"/>      
+      <multiplicity id="96" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="34" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="97">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="19"/>  
+  </nesting>  
+  <association id="98">    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="99" name="startDate"/>      
+      <multiplicity id="100" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="53" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="101">    
+    <end type="SOURCE" refId="59"/>    
+    <end type="TARGET" refId="29"/>  
+  </nesting>  
+  <association id="102">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="103" name="apptTmplSet"/>      
+      <multiplicity id="104" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="60" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="105">    
+    <end type="SOURCE" refId="60"/>    
+    <end type="TARGET" refId="11"/>  
+  </nesting>  
+  <association id="106">    
+    <end type="SOURCE" refId="31" navigable="false">      
+      <attribute id="107" name="appoints"/>      
+      <multiplicity id="108" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="46" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="109">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="43"/>  
+  </nesting>  
+  <association id="110">    
+    <end type="SOURCE" refId="34" navigable="false">      
+      <attribute id="111" name="dailyView"/>      
+      <multiplicity id="112" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="51" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="113">    
+    <end type="SOURCE" refId="59"/>    
+    <end type="TARGET" refId="20"/>  
+  </nesting>  
+  <nesting id="114">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="41"/>  
+  </nesting>  
+  <generalization id="115">    
+    <end type="SOURCE" refId="44"/>    
+    <end type="TARGET" refId="50"/>  
+  </generalization>  
+  <association id="116">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="117" name="apptSet"/>      
+      <multiplicity id="118" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="60" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="119">    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="120" name="end"/>      
+      <multiplicity id="121" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="53" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="122">    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="123" name="blocks"/>      
+      <multiplicity id="124" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="47" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="125">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="28"/>  
+  </realization>  
+  <association id="126">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="127" name="startDatePanel"/>      
+      <multiplicity id="128" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="53" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="129">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="5"/>  
+  </nesting>  
+  <nesting id="130">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="39"/>  
+  </nesting>  
+  <association id="131">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="132" name="endDatePanel"/>      
+      <multiplicity id="133" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="53" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="134">    
+    <end type="SOURCE" refId="34" navigable="false">      
+      <attribute id="135" name="weeklyView"/>      
+      <multiplicity id="136" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="30" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="137">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="138" name="apptSet"/>      
+      <multiplicity id="139" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="48" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="140">    
+    <end type="SOURCE" refId="51" navigable="false">      
+      <attribute id="141" name="block"/>      
+      <multiplicity id="142" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="47" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="143">    
+    <bendpoint x="4719" y="1340"/>    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="25"/>  
+  </nesting>  
+  <association id="144">    
+    <end type="SOURCE" refId="37" navigable="false">      
+      <attribute id="145" name="theModel"/>      
+      <multiplicity id="146" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="147">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="60"/>  
+  </generalization>  
+  <association id="148">    
+    <end type="SOURCE" refId="58" navigable="false">      
+      <attribute id="149" name="endDate"/>      
+      <multiplicity id="150" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="53" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="151">    
+    <bendpoint x="1278" y="1340"/>    
+    <bendpoint x="1257" y="1928"/>    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="152" name="pattern"/>      
+      <multiplicity id="153" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="50" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="154">    
+    <end type="SOURCE" refId="34" navigable="false">      
+      <attribute id="155" name="appointmentView"/>      
+      <multiplicity id="156" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="157">    
+    <end type="SOURCE" refId="50" navigable="false">      
+      <attribute id="158" name="occuranceRange"/>      
+      <multiplicity id="159" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="45" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="160">    
+    <end type="SOURCE" refId="59"/>    
+    <end type="TARGET" refId="56"/>  
+  </nesting>  
+  <association id="161">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="162" name="that"/>      
+      <multiplicity id="163" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="164">    
+    <end type="SOURCE" refId="59"/>    
+    <end type="TARGET" refId="49"/>  
+  </nesting>  
+  <association id="165">    
+    <end type="SOURCE" refId="60" navigable="false">      
+      <attribute id="166" name="that"/>      
+      <multiplicity id="167" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="60" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="168">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="45"/>  
+  </generalization>  
+  <nesting id="169">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="24"/>  
+  </nesting>  
+  <association id="170">    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="171" name="start"/>      
+      <multiplicity id="172" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="53" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="173">    
+    <end type="SOURCE" refId="57" navigable="false">      
+      <attribute id="174" name="thisAppointment"/>      
+      <multiplicity id="175" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="48" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="176">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="32"/>  
+  </nesting>  
+  <association id="177">    
+    <end type="SOURCE" refId="34" navigable="false">      
+      <attribute id="178" name="monthlyView"/>      
+      <multiplicity id="179" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="180">    
+    <end type="SOURCE" refId="33"/>    
+    <end type="TARGET" refId="45"/>  
+  </generalization>  
+  <association id="181">    
+    <end type="SOURCE" refId="60" navigable="false">      
+      <attribute id="182" name="observer"/>      
+      <multiplicity id="183" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="52" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="184">    
+    <end type="SOURCE" refId="34" navigable="false">      
+      <attribute id="185" name="calMenu"/>      
+      <multiplicity id="186" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="187">    
+    <end type="SOURCE" refId="58"/>    
+    <end type="TARGET" refId="26"/>  
+  </nesting>  
+  <nesting id="188">    
+    <end type="SOURCE" refId="59"/>    
+    <end type="TARGET" refId="15"/>  
+  </nesting>  
+  <nesting id="189">    
+    <end type="SOURCE" refId="59"/>    
+    <end type="TARGET" refId="38"/>  
+  </nesting>  
+  <generalization id="190">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="45"/>  
+  </generalization>  
+  <nesting id="191">    
+    <end type="SOURCE" refId="59"/>    
+    <end type="TARGET" refId="35"/>  
+  </nesting>  
+  <association id="192">    
+    <bendpoint x="1002" y="1340"/>    
+    <bendpoint x="1278" y="1928"/>    
+    <bendpoint x="1278" y="2480"/>    
+    <end type="SOURCE" refId="58" navigable="false">      
+      <attribute id="193" name="pattern"/>      
+      <multiplicity id="194" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="44" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="195">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="50"/>  
+  </generalization>  
+  <association id="196">    
+    <bendpoint x="287" y="1340"/>    
+    <bendpoint x="287" y="1928"/>    
+    <bendpoint x="287" y="2480"/>    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="197" name="pattern"/>      
+      <multiplicity id="198" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="199">    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="200" name="endDate"/>      
+      <multiplicity id="201" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="53" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="202">    
+    <end type="SOURCE" refId="34"/>    
+    <end type="TARGET" refId="54"/>  
+  </nesting>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
