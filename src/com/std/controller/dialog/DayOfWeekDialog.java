@@ -21,11 +21,11 @@ import javax.swing.JToggleButton;
 import javax.swing.border.EmptyBorder;
 import javax.swing.border.TitledBorder;
 
-import com.std.model.pattern.DayOfWeekPattern;
-import com.std.model.pattern.RecurrencePattern;
-import com.std.util.GroupLayoutUtility;
-import com.std.util.range.DateRange;
-import com.std.util.range.WeekRange;
+import src.com.std.model.pattern.DayOfWeekPattern;
+import src.com.std.model.pattern.RecurrencePattern;
+import src.com.std.util.GroupLayoutUtility;
+import src.com.std.util.range.DateRange;
+import src.com.std.util.range.WeekRange;
 
 /**
  * DayOfWeekDialog is a utility class of the controller that 

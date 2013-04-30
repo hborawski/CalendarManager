@@ -9,7 +9,7 @@ import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
 
-import com.std.util.range.DateRange;
+import src.com.std.util.range.DateRange;
 
 /**
  * This class is the representation of a pattern that would exist on

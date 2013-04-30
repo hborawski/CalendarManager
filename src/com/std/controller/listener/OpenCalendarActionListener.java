@@ -7,8 +7,8 @@ import java.io.File;
 
 import javax.swing.JOptionPane;
 
-import com.std.controller.CalendarController;
-import com.std.model.CalendarModel;
+import src.com.std.controller.CalendarController;
+import src.com.std.model.CalendarModel;
 
 
 /**

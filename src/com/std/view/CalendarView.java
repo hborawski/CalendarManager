@@ -21,15 +21,15 @@ import javax.swing.JTabbedPane;
 import javax.swing.SwingConstants;
 import javax.swing.border.EmptyBorder;
 
-import com.std.model.appointment.AppointmentUtility;
-import com.std.model.appointment.RefAppointment;
-import com.std.util.range.DayRange;
-import com.std.util.range.MonthRange;
-import com.std.util.range.WeekRange;
-import com.std.view.panel.AppointmentPanel;
-import com.std.view.panel.DailyPanel;
-import com.std.view.panel.MonthlyPanel;
-import com.std.view.panel.WeeklyPanel;
+import src.com.std.model.appointment.AppointmentUtility;
+import src.com.std.model.appointment.RefAppointment;
+import src.com.std.util.range.DayRange;
+import src.com.std.util.range.MonthRange;
+import src.com.std.util.range.WeekRange;
+import src.com.std.view.panel.AppointmentPanel;
+import src.com.std.view.panel.DailyPanel;
+import src.com.std.view.panel.MonthlyPanel;
+import src.com.std.view.panel.WeeklyPanel;
 
 /**
  * This is the main entry point for the view, it updates the views when it is called

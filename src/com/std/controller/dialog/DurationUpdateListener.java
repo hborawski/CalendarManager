@@ -1,12 +1,12 @@
-package com.std.controller.dialog;
+package src.com.std.controller.dialog;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 import javax.swing.JLabel;
 
-import com.std.model.appointment.AppointmentUtility;
-import com.std.util.range.DateRange;
+import src.com.std.model.appointment.AppointmentUtility;
+import src.com.std.util.range.DateRange;
 
 /**
  * DurationUpdateListener is a helper class for the AppointmentDialog and RecurrencePattern 

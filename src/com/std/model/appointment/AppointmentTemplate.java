@@ -6,7 +6,7 @@ import java.io.ObjectOutputStream;
 import java.io.Serializable;
 import java.util.Date;
 
-import com.std.model.pattern.RecurrencePattern;
+import src.com.std.model.pattern.RecurrencePattern;
 
 /**
  * An AppointmentTemplate is a free-floating template for an appointment.  It

@@ -1,4 +1,4 @@
-package test.rangeTests;
+package src.test.rangeTests;
 
 import static org.junit.Assert.*;
 

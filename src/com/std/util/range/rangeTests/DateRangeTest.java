@@ -7,7 +7,7 @@ import java.util.Date;
 
 import org.junit.Test;
 
-import com.std.util.range.DateRange;
+import src.com.std.util.range.DateRange;
 
 public class DateRangeTest {
 

@@ -11,8 +11,8 @@ import javax.swing.JFrame;
 import javax.swing.JTextArea;
 import javax.swing.border.EtchedBorder;
 
-import com.std.model.appointment.AppointmentTemplate;
-import com.std.model.appointment.RefAppointment;
+import src.com.std.model.appointment.AppointmentTemplate;
+import src.com.std.model.appointment.RefAppointment;
 /**
  * Class that is used to write 
  * an appointment to a text area.

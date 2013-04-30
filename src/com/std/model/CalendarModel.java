@@ -14,9 +14,9 @@ import java.util.Observable;
 import java.util.Observer;
 import java.util.Set;
 
-import com.std.model.appointment.AppointmentTemplate;
-import com.std.model.appointment.RefAppointment;
-import com.std.util.ObservableSet;
+import src.com.std.model.appointment.AppointmentTemplate;
+import src.com.std.model.appointment.RefAppointment;
+import src.com.std.util.ObservableSet;
 
 /**
  * CalendarModel is a basic representation of the data of the calendar.  This class

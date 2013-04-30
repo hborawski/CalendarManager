@@ -17,10 +17,10 @@ import javax.swing.JPanel;
 import javax.swing.JTextField;
 import javax.swing.SwingConstants;
 
-import com.std.model.pattern.NDaysPattern;
-import com.std.model.pattern.RecurrencePattern;
-import com.std.util.GroupLayoutUtility;
-import com.std.util.range.DateRange;
+import src.com.std.model.pattern.NDaysPattern;
+import src.com.std.model.pattern.RecurrencePattern;
+import src.com.std.util.GroupLayoutUtility;
+import src.com.std.util.range.DateRange;
 
 /**
  * NDaysDialog is a utility class of the controller that 

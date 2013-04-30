@@ -3,8 +3,8 @@ package com.std.controller.listener;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import com.std.controller.CalendarController;
-import com.std.controller.dialog.AppointmentDialog;
+import src.com.std.controller.CalendarController;
+import src.com.std.controller.dialog.AppointmentDialog;
 
 /**
  * PreferencesActionListener should listen to any click actions on the 

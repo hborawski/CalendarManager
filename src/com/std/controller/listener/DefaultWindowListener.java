@@ -4,7 +4,7 @@ import java.awt.Window;
 import java.awt.event.WindowEvent;
 import java.awt.event.WindowListener;
 
-import com.std.controller.CalendarController;
+import src.com.std.controller.CalendarController;
 
 /**
  * This is the listener listening to any disposal events on the view.

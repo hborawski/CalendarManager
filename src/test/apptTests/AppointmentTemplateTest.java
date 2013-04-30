@@ -6,11 +6,11 @@ import java.util.Date;
 
 import org.junit.Test;
 
-import com.std.model.appointment.AppointmentTemplate;
-import com.std.model.pattern.DayOfWeekPattern;
-import com.std.model.pattern.NDaysPattern;
-import com.std.model.pattern.RecurrencePattern;
-import com.std.util.range.DateRange;
+import src.com.std.model.appointment.AppointmentTemplate;
+import src.com.std.model.pattern.DayOfWeekPattern;
+import src.com.std.model.pattern.NDaysPattern;
+import src.com.std.model.pattern.RecurrencePattern;
+import src.com.std.util.range.DateRange;
 
 public class AppointmentTemplateTest {
 

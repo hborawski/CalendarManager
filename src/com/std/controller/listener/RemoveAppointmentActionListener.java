@@ -7,8 +7,8 @@ import java.util.Set;
 
 import javax.swing.JOptionPane;
 
-import com.std.controller.CalendarController;
-import com.std.model.appointment.RefAppointment;
+import src.com.std.controller.CalendarController;
+import src.com.std.model.appointment.RefAppointment;
 
 /**
  * This is the listener listening to the remove appointment button

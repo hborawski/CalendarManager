@@ -4,8 +4,8 @@ import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.util.Date;
 
-import com.std.controller.CalendarController;
-import com.std.view.block.DayBlock;
+import src.com.std.controller.CalendarController;
+import src.com.std.view.block.DayBlock;
 
 
 /**

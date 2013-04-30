@@ -7,8 +7,8 @@ import java.util.Calendar;
 
 import org.junit.Test;
 
-import com.std.model.pattern.NDaysPattern;
-import com.std.util.range.DateRange;
+import src.com.std.model.pattern.NDaysPattern;
+import src.com.std.util.range.DateRange;
 
 public class NDaysPatternTest {
 

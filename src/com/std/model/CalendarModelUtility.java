@@ -12,9 +12,9 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.TreeSet;
 
-import com.std.model.appointment.AppointmentTemplate;
-import com.std.model.appointment.AppointmentUtility;
-import com.std.model.appointment.RefAppointment;
+import src.com.std.model.appointment.AppointmentTemplate;
+import src.com.std.model.appointment.AppointmentUtility;
+import src.com.std.model.appointment.RefAppointment;
 
 public class CalendarModelUtility {
 	

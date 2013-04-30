@@ -9,11 +9,11 @@ import java.util.TreeSet;
 
 import javax.swing.JLabel;
 
-import com.std.controller.dialog.DatePanel;
-import com.std.model.pattern.DayOfWeekPattern;
-import com.std.model.pattern.NDaysPattern;
-import com.std.model.pattern.RecurrencePattern;
-import com.std.util.range.DateRange;
+import src.com.std.controller.dialog.DatePanel;
+import src.com.std.model.pattern.DayOfWeekPattern;
+import src.com.std.model.pattern.NDaysPattern;
+import src.com.std.model.pattern.RecurrencePattern;
+import src.com.std.util.range.DateRange;
 
 /**
  * AppointmentUtility is a utility class for working with Appointments

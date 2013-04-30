@@ -5,11 +5,11 @@ import java.awt.event.ActionListener;
 
 import javax.swing.JOptionPane;
 
-import com.std.controller.CalendarController;
-import com.std.controller.dialog.AppointmentDialog;
-import com.std.model.CalendarModelUtility;
-import com.std.model.appointment.AppointmentTemplate;
-import com.std.model.appointment.RefAppointment;
+import src.com.std.controller.CalendarController;
+import src.com.std.controller.dialog.AppointmentDialog;
+import src.com.std.model.CalendarModelUtility;
+import src.com.std.model.appointment.AppointmentTemplate;
+import src.com.std.model.appointment.RefAppointment;
 
 public class EditRecurringAppointmentActionListener implements ActionListener {
 
