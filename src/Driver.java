@@ -1,9 +1,9 @@
 
 import java.io.IOException;
 
-import src.com.std.controller.CalendarController;
-import src.com.std.model.CalendarModel;
-import src.com.std.view.CalendarView;
+import com.std.controller.CalendarController;
+import com.std.model.CalendarModel;
+import com.std.view.CalendarView;
 
 /**
  * Load the GUI to run the Calendar application

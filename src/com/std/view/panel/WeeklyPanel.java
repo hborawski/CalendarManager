@@ -18,9 +18,9 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.SwingConstants;
 
-import src.com.std.model.appointment.RefAppointment;
-import src.com.std.util.range.WeekRange;
-import src.com.std.view.block.WeeklyDayBlock;
+import com.std.model.appointment.RefAppointment;
+import com.std.util.range.WeekRange;
+import com.std.view.block.WeeklyDayBlock;
 
 /**
  * This class represents the week view, it contains all the information needed

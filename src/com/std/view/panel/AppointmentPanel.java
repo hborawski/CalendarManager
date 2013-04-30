@@ -18,9 +18,9 @@ import javax.swing.SwingConstants;
 import javax.swing.border.EmptyBorder;
 import javax.swing.border.LineBorder;
 
-import src.com.std.model.appointment.AppointmentUtility;
-import src.com.std.model.appointment.RefAppointment;
-import src.com.std.util.GroupLayoutUtility;
+import com.std.model.appointment.AppointmentUtility;
+import com.std.model.appointment.RefAppointment;
+import com.std.util.GroupLayoutUtility;
 
 /**
  * This is the side of the main window, it allows 

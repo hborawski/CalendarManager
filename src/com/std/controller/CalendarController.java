@@ -7,27 +7,27 @@ import java.util.Observer;
 
 import javax.swing.JOptionPane;
 
-import src.com.std.controller.listener.AboutActionListener;
-import src.com.std.controller.listener.AppointmentSelectionMouseListener;
-import src.com.std.controller.listener.DateSelectionActionListener;
-import src.com.std.controller.listener.DefaultWindowListener;
-import src.com.std.controller.listener.EditAppointmentActionListener;
-import src.com.std.controller.listener.EditRecurringAppointmentActionListener;
-import src.com.std.controller.listener.ExitApplicationActionListener;
-import src.com.std.controller.listener.NewAppointmentActionListener;
-import src.com.std.controller.listener.NewCalendarActionListener;
-import src.com.std.controller.listener.NextButtonActionListener;
-import src.com.std.controller.listener.OpenCalendarActionListener;
-import src.com.std.controller.listener.PreferencesActionListener;
-import src.com.std.controller.listener.PrevButtonActionListener;
-import src.com.std.controller.listener.RemoveAllAppointmentActionListener;
-import src.com.std.controller.listener.RemoveAppointmentActionListener;
-import src.com.std.controller.listener.SaveAsCalendarActionListener;
-import src.com.std.controller.listener.SaveCalendarActionListener;
-import src.com.std.model.CalendarModel;
-import src.com.std.model.appointment.AppointmentTemplate;
-import src.com.std.model.appointment.RefAppointment;
-import src.com.std.view.CalendarView;
+import com.std.controller.listener.AboutActionListener;
+import com.std.controller.listener.AppointmentSelectionMouseListener;
+import com.std.controller.listener.DateSelectionActionListener;
+import com.std.controller.listener.DefaultWindowListener;
+import com.std.controller.listener.EditAppointmentActionListener;
+import com.std.controller.listener.EditRecurringAppointmentActionListener;
+import com.std.controller.listener.ExitApplicationActionListener;
+import com.std.controller.listener.NewAppointmentActionListener;
+import com.std.controller.listener.NewCalendarActionListener;
+import com.std.controller.listener.NextButtonActionListener;
+import com.std.controller.listener.OpenCalendarActionListener;
+import com.std.controller.listener.PreferencesActionListener;
+import com.std.controller.listener.PrevButtonActionListener;
+import com.std.controller.listener.RemoveAllAppointmentActionListener;
+import com.std.controller.listener.RemoveAppointmentActionListener;
+import com.std.controller.listener.SaveAsCalendarActionListener;
+import com.std.controller.listener.SaveCalendarActionListener;
+import com.std.model.CalendarModel;
+import com.std.model.appointment.AppointmentTemplate;
+import com.std.model.appointment.RefAppointment;
+import com.std.view.CalendarView;
 
 /**
  * This class is the observer of the model, it acts as the

@@ -3,8 +3,8 @@ package com.std.controller.listener;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 
-import src.com.std.controller.CalendarController;
-import src.com.std.view.block.AppointmentBlock;
+import com.std.controller.CalendarController;
+import com.std.view.block.AppointmentBlock;
 
 
 

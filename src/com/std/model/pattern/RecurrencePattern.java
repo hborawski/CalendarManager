@@ -7,7 +7,7 @@ import java.io.Serializable;
 import java.util.Date;
 import java.util.Set;
 
-import src.com.std.util.range.DateRange;
+import com.std.util.range.DateRange;
 
 /**
  * This is the abstract class Recurrence Pattern

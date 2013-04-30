@@ -1,8 +1,9 @@
-package src.test.rangeTests;
+package test.rangeTests;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+
 
 public class WeekRangeTest {
 

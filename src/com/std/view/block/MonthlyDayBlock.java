@@ -17,9 +17,9 @@ import javax.swing.JScrollPane;
 import javax.swing.JToggleButton;
 import javax.swing.border.EtchedBorder;
 
-import src.com.std.model.appointment.AppointmentUtility;
-import src.com.std.model.appointment.RefAppointment;
-import src.com.std.util.range.DayRange;
+import com.std.model.appointment.AppointmentUtility;
+import com.std.model.appointment.RefAppointment;
+import com.std.util.range.DayRange;
 
 /**
  * This is the day representation in side of a week, its job is

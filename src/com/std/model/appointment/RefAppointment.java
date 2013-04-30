@@ -7,8 +7,8 @@ import java.io.Serializable;
 import java.util.Comparator;
 import java.util.Date;
 
-import src.com.std.model.pattern.RecurrencePattern;
-import src.com.std.util.range.DateRange;
+import com.std.model.pattern.RecurrencePattern;
+import com.std.util.range.DateRange;
 
 
 /**

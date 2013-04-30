@@ -6,9 +6,10 @@ import java.awt.event.MouseListener;
 import java.util.HashSet;
 import java.util.Set;
 
-import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.border.EtchedBorder;
+
+import com.std.model.appointment.RefAppointment;
 
 public class AppointmentBlock extends JPanel {
 	
@@ -25,8 +26,8 @@ public class AppointmentBlock extends JPanel {
 		setBorder(new EtchedBorder());
 		setFont(getFont().deriveFont(14f));
 		setOpaque(false);
-		
-		constraints.gridheight = (int)(r.getDuration()*1000)/(60*15);
+		long duration = r.getAppointment().getDuration();
+		constraints.gridheight = (int)(duration*1000)/(60*15);
 		
 		if (constraints.gridheight > 1) {
 			constraints.weighty = 1;

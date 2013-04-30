@@ -1,14 +1,43 @@
 package com.std.controller.dialog;
 
-import src.com.std.model.CalendarModel;
-import src.com.std.model.appointment.AppointmentTemplate;
-import src.com.std.model.appointment.AppointmentUtility;
-import src.com.std.model.appointment.RefAppointment;
-import src.com.std.model.pattern.DayOfWeekPattern;
-import src.com.std.model.pattern.NDaysPattern;
-import src.com.std.model.pattern.RecurrencePattern;
-import src.com.std.util.GroupLayoutUtility;
-import src.com.std.util.range.DateRange;
+import java.awt.BorderLayout;
+import java.awt.Component;
+import java.awt.Dialog;
+import java.awt.Dimension;
+import java.awt.Frame;
+import java.awt.GridLayout;
+import java.awt.Insets;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+import javax.swing.ButtonGroup;
+import javax.swing.GroupLayout;
+import javax.swing.JButton;
+import javax.swing.JDialog;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.JTextArea;
+import javax.swing.JTextField;
+import javax.swing.JToggleButton;
+import javax.swing.border.BevelBorder;
+import javax.swing.border.CompoundBorder;
+import javax.swing.border.EmptyBorder;
+import javax.swing.border.TitledBorder;
+
+import com.std.model.CalendarModel;
+import com.std.model.appointment.AppointmentTemplate;
+import com.std.model.appointment.AppointmentUtility;
+import com.std.model.appointment.RefAppointment;
+import com.std.model.pattern.DayOfWeekPattern;
+import com.std.model.pattern.NDaysPattern;
+import com.std.model.pattern.RecurrencePattern;
+import com.std.util.GroupLayoutUtility;
+import com.std.util.range.DateRange;
 
 /**
  * AppointmentDialog is a utility class of the controller that 

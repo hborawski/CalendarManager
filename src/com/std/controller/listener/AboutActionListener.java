@@ -5,7 +5,7 @@ import java.awt.event.ActionListener;
 
 import javax.swing.JOptionPane;
 
-import src.com.std.controller.CalendarController;
+import com.std.controller.CalendarController;
 
 /**
  * This is the listener listening to the about menu item.

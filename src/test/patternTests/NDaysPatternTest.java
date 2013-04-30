@@ -2,13 +2,13 @@ package test.patternTests;
 
 import static org.junit.Assert.*;
 
-import java.util.Date;
 import java.util.Calendar;
+import java.util.Date;
 
 import org.junit.Test;
 
-import src.com.std.model.pattern.NDaysPattern;
-import src.com.std.util.range.DateRange;
+import com.std.model.pattern.NDaysPattern;
+import com.std.util.range.DateRange;
 
 public class NDaysPatternTest {
 
@@ -38,7 +38,7 @@ public class NDaysPatternTest {
 		DateRange dRange = new DateRange(date,endDate);
 		int n = 3;
 		NDaysPattern nPatt = new NDaysPattern( dRange,n );
-		assertEquals(n ,nPatt.getinstanceEvery());
+		assertEquals(n ,nPatt.instanceEvery());
 	}
 
 	@Test
@@ -51,9 +51,9 @@ public class NDaysPatternTest {
 		DateRange dRange = new DateRange(date,endDate);
 		int n = 0;
 		NDaysPattern nPatt = new NDaysPattern( dRange,n );
-		assertEquals(0, nPatt.getinstanceEvery());
+		assertEquals(0, nPatt.instanceEvery());
 		nPatt.setInstanceEveryDays(10);
-		assertEquals(10, nPatt.getinstanceEvery());
+		assertEquals(10, nPatt.instanceEvery());
 	}
 
 }

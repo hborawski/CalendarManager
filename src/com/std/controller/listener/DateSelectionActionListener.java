@@ -4,8 +4,8 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Date;
 
-import src.com.std.controller.CalendarController;
-import src.com.std.view.block.DayBlock;
+import com.std.controller.CalendarController;
+import com.std.view.block.DayBlock;
 
 
 /**
