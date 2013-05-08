@@ -35,7 +35,7 @@ import com.std.model.pattern.RecurrencePattern;
  * @author xxx
  *
  */
-public class AppointmentTemplate extends java.util.Observable implements Serializable {
+public class AppointmentTemplate extends java.util.Observable implements Serializable,AppointmentTemplateInterface {
 
 	/**
 	 * UID Used for Serializable
@@ -276,7 +276,7 @@ public class AppointmentTemplate extends java.util.Observable implements Seriali
 	 * 
 	 * @param apptTmple the new appointment fields
 	 */
-	public void setFields(AppointmentTemplate apptTmpl) {
+	public void setFields(AppointmentTemplateInterface apptTmpl) {
 		internalSetTitle(apptTmpl.getTitle());
 		internalSetDescription(apptTmpl.getDescription());
 		internalSetLocation(apptTmpl.getLocation());
