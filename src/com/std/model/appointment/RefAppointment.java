@@ -100,7 +100,7 @@ public class RefAppointment extends java.util.Observable implements Serializable
 		super();
 		setTemplate(p);
 		internalSetStartDate(d);
-		
+
 		notifyObservers(null);
 	}
 	
@@ -350,5 +350,7 @@ public class RefAppointment extends java.util.Observable implements Serializable
 		ostream.writeObject(getTemplate());
 		ostream.writeObject(getStartDate());
 	}
+	
+	
 
 }

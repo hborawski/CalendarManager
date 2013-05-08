@@ -125,7 +125,9 @@ public class AppointmentPanel extends JToggleButton {
 	 * creates all of the data fields and sets up the buttons
 	 * and actionlisteners
 	 */
-	
+	/*
+	 * THIS IS FOR THE APPOINTMENT PANEL ON THE SIDE OF THE MAIN APPLICATION
+	 */
 	public AppointmentPanel() {
 		super();
 		
@@ -152,7 +154,7 @@ public class AppointmentPanel extends JToggleButton {
 		GroupLayoutUtility.addToGroups(
 			groupLayout, 
 			new Component[][] {
-				{new JLabel("title"), titleField},
+				{new JLabel("Title"), titleField},
 				{new JLabel("location"), locationField},
 				{new JLabel("start date"), startDateField},
 				{new JLabel("end date"), endDateField},

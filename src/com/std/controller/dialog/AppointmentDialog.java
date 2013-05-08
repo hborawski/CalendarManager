@@ -9,6 +9,7 @@ import java.awt.GridLayout;
 import java.awt.Insets;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.ItemListener;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -20,6 +21,7 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
+import javax.swing.JRadioButton;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
@@ -29,6 +31,7 @@ import javax.swing.border.CompoundBorder;
 import javax.swing.border.EmptyBorder;
 import javax.swing.border.TitledBorder;
 
+import com.std.controller.listener.RadioButtonListener;
 import com.std.model.CalendarModel;
 import com.std.model.appointment.AppointmentTemplate;
 import com.std.model.appointment.AppointmentUtility;
@@ -282,6 +285,10 @@ public class AppointmentDialog extends JDialog {
 	 */
 	private DatePanel endDatePanel;
 	
+	private JTextField pocNamePanel;
+	private JTextField pocNumberPanel;
+	private JLabel blankPanel;
+	
 	/**
 	 * duration field display
 	 */
@@ -504,6 +511,13 @@ public class AppointmentDialog extends JDialog {
 		// end date
 		endDatePanel = new DatePanel(appt.getEndDate(), true);
 		
+		//Point of Contact
+		pocNamePanel = new JTextField(appt.getLocation());
+		pocNumberPanel = new JTextField(appt.getLocation());
+		
+		//blank panel to satisfy input reqs
+		blankPanel = new JLabel("");
+		
 		// duration
 		duration = new JLabel();
 		
@@ -512,6 +526,21 @@ public class AppointmentDialog extends JDialog {
 		endDatePanel.addActionListener(new DurationUpdateListener(duration, startDatePanel, endDatePanel));
 		DurationUpdateListener.updateDuration(duration, startDatePanel, endDatePanel);
 		
+		//importance radio buttons
+		ButtonGroup rbGroup = new ButtonGroup();
+		JRadioButton highImportance = new JRadioButton("Very Important");
+		JRadioButton mediumImportance = new JRadioButton("Moderately Important");
+		JRadioButton lowImportance = new JRadioButton("Not Very Important");
+		JRadioButton noImportance = new JRadioButton("No Importance Specified");
+		rbGroup.add(highImportance);
+		rbGroup.add(mediumImportance);
+		rbGroup.add(lowImportance);
+		rbGroup.add(noImportance);
+		RadioButtonListener rbListener = new RadioButtonListener();
+		highImportance.addItemListener(rbListener);
+		mediumImportance.addItemListener(rbListener);
+		lowImportance.addItemListener(rbListener);
+		noImportance.addItemListener(rbListener);
 		
 		// panel to return
 		JPanel ret = new JPanel();
@@ -523,9 +552,16 @@ public class AppointmentDialog extends JDialog {
 			new Component[][] {
 				{new JLabel("title"), titleField},
 				{new JLabel("location"), locationField},
+				{new JLabel("point of contact Name"), pocNamePanel},
+				{new JLabel("point of contact Number"), pocNumberPanel},
 				{new JLabel("start date"), startDatePanel},
 				{new JLabel("end date"), endDatePanel},
-				{new JLabel("duration"), duration}
+				{new JLabel("duration"), duration},
+				{new JLabel("importance:"), blankPanel},
+				{new JLabel(), highImportance},
+				{new JLabel(), mediumImportance},
+				{new JLabel(), lowImportance},
+				{new JLabel(), noImportance}
 			});
 		ret.setLayout(northLayout);
 		

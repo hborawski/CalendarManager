@@ -62,10 +62,26 @@ public class AppointmentTemplate extends java.util.Observable implements Seriali
 	 */
 	private long duration;
 	
+	/*
+	 * the importance level of the appointment
+	 */
+	private int importance;
+	
 	/**
 	 * The pattern that this appointment recurs by (daily,weekly, etc.)
 	 */
 	private RecurrencePattern recPattern;	
+	
+	/*
+	 * sets the importance level of the appointment
+	 */
+	private void setImportance(int imp){
+		importance = imp;
+	}
+	
+	private int getImportance(){
+		return importance;
+	}
 	
 	/**
 	 * Returns the title of the appointment template object.
