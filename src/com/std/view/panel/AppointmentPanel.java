@@ -41,6 +41,9 @@ public class AppointmentPanel extends JToggleButton {
 	
 	private JTextArea titleField;
 	private JTextArea locationField;
+	private JTextArea pointOfContactName;
+	private JTextArea pointOfContactNumber;
+	private JTextArea importance;
 	private JTextArea startDateField;
 	private JTextArea endDateField;
 	private JTextArea durationField;
@@ -76,6 +79,9 @@ public class AppointmentPanel extends JToggleButton {
 		if(appt == null) {
 			titleField.setText("");
 			locationField.setText("");
+			pointOfContactName.setText("");
+			pointOfContactNumber.setText("");
+			importance.setText("");
 			startDateField.setText("");
 			endDateField.setText("");
 			durationField.setText("");
@@ -89,6 +95,9 @@ public class AppointmentPanel extends JToggleButton {
 		} else {
 			titleField.setText(appt.getTitle());
 			locationField.setText(appt.getLocation());
+			//pointOfContactName.setText();
+			//pointOfContactNumber.setText("");
+			//importance.setText("");
 			startDateField.setText(FORMAT.format(appt.getStartDate()));
 			endDateField.setText(FORMAT.format(appt.getEndDate()));
 			durationField.setText(AppointmentUtility.getDurationDescription(appt.getDuration()));
@@ -133,6 +142,9 @@ public class AppointmentPanel extends JToggleButton {
 		
 		titleField = createTextArea();
 		locationField = createTextArea();
+		pointOfContactName = createTextArea();
+		pointOfContactNumber = createTextArea();
+		importance = createTextArea();
 		startDateField = createTextArea();
 		endDateField = createTextArea();
 		durationField = createTextArea();
@@ -155,12 +167,15 @@ public class AppointmentPanel extends JToggleButton {
 			groupLayout, 
 			new Component[][] {
 				{new JLabel("Title"), titleField},
-				{new JLabel("location"), locationField},
-				{new JLabel("start date"), startDateField},
-				{new JLabel("end date"), endDateField},
-				{new JLabel("duration"), durationField},
-				{new JLabel("recurrence"), recurrenceField},
-				{new JLabel("description"), new JLabel()}
+				{new JLabel("Location"), locationField},
+				//{new JLabel("Point of Contact Name"), pointOfContactName},
+				//{new JLabel("Point of Contact Number"), pointOfContactNumber},
+				//{new JLabel("Importance Level"), importance},
+				{new JLabel("Start Date"), startDateField},
+				{new JLabel("End Date"), endDateField},
+				{new JLabel("Duration"), durationField},
+				{new JLabel("Recurrence"), recurrenceField},
+				{new JLabel("Description"), new JLabel()}
 			});
 		northDataPanel.setLayout(groupLayout);
 		

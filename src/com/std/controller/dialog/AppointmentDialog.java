@@ -14,6 +14,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 import javax.swing.ButtonGroup;
+import javax.swing.ButtonModel;
 import javax.swing.GroupLayout;
 import javax.swing.JButton;
 import javax.swing.JDialog;
@@ -35,6 +36,8 @@ import com.std.controller.listener.RadioButtonListener;
 import com.std.model.CalendarModel;
 import com.std.model.appointment.AppointmentTemplate;
 import com.std.model.appointment.AppointmentUtility;
+import com.std.model.appointment.ImportanceLevel;
+import com.std.model.appointment.PointOfContact;
 import com.std.model.appointment.RefAppointment;
 import com.std.model.pattern.DayOfWeekPattern;
 import com.std.model.pattern.NDaysPattern;
@@ -71,7 +74,13 @@ public class AppointmentDialog extends JDialog {
 	 * UID Used for Serializable
 	 */
 	private static final long serialVersionUID = 5613941454015423846L;
-	
+	public JRadioButton buttonSelection;
+	public ButtonGroup rbGroup;
+	public JRadioButton highImportance;
+	public JRadioButton mediumImportance;
+	public JRadioButton lowImportance;
+	public JRadioButton noImportance;
+	public int eventImportance;
 	/**
 	 * format to use when displaying date information
 	 */
@@ -362,6 +371,23 @@ public class AppointmentDialog extends JDialog {
 
 			// populate the dummy appointment
 			// with our field data
+			if (highImportance.isSelected()){
+				eventImportance = 3;
+			}
+			else if (mediumImportance.isSelected()){
+				eventImportance = 2;
+			}
+			else if (lowImportance.isSelected()){
+				eventImportance = 1;
+			}
+			else{
+				eventImportance = 0;
+			}
+			
+			AppointmentTemplate tem = appt.getTemplate();
+			ImportanceLevel dec = new ImportanceLevel(tem, eventImportance);
+			PointOfContact poc = new PointOfContact(dec,pocNamePanel.getText(),pocNumberPanel.getText());
+			appt.setTemplate(poc);
 			tempAppointment.setTitle(titleField.getText());
 			tempAppointment.setLocation(locationField.getText());
 			tempAppointment.setStartDate(startDatePanel.getDate());
@@ -384,6 +410,10 @@ public class AppointmentDialog extends JDialog {
 		} catch(Exception e) {
 			JOptionPane.showMessageDialog(this, e.getMessage(), "", JOptionPane.ERROR_MESSAGE);
 		}
+	}
+	
+	public int getImportance(){
+		return eventImportance;
 	}
 	
 	/**
@@ -527,26 +557,23 @@ public class AppointmentDialog extends JDialog {
 		DurationUpdateListener.updateDuration(duration, startDatePanel, endDatePanel);
 		
 		//importance radio buttons
-		ButtonGroup rbGroup = new ButtonGroup();
-		JRadioButton highImportance = new JRadioButton("Very Important");
-		JRadioButton mediumImportance = new JRadioButton("Moderately Important");
-		JRadioButton lowImportance = new JRadioButton("Not Very Important");
-		JRadioButton noImportance = new JRadioButton("No Importance Specified");
+		rbGroup = new ButtonGroup();
+		highImportance = new JRadioButton("Very Important");
+		mediumImportance = new JRadioButton("Moderately Important");
+		lowImportance = new JRadioButton("Not Very Important");
+		noImportance = new JRadioButton("No Importance Specified");
 		rbGroup.add(highImportance);
 		rbGroup.add(mediumImportance);
 		rbGroup.add(lowImportance);
 		rbGroup.add(noImportance);
-		RadioButtonListener rbListener = new RadioButtonListener();
-		highImportance.addItemListener(rbListener);
-		mediumImportance.addItemListener(rbListener);
-		lowImportance.addItemListener(rbListener);
-		noImportance.addItemListener(rbListener);
 		
 		// panel to return
 		JPanel ret = new JPanel();
 		GroupLayout northLayout = new GroupLayout(ret);
 		northLayout.setAutoCreateContainerGaps(true);
 		northLayout.setAutoCreateGaps(true);
+		
+		
 		GroupLayoutUtility.addToGroups(
 			northLayout, 
 			new Component[][] {
@@ -564,10 +591,10 @@ public class AppointmentDialog extends JDialog {
 				{new JLabel(), noImportance}
 			});
 		ret.setLayout(northLayout);
-		
+		buttonSelection = (JRadioButton) rbGroup.getSelection();
 		return ret;
 	}
-	
+
 	/**
 	 * Initializes this AppointmentDialog object, acts as
 	 * a common constructor / initializer for the actual
@@ -642,5 +669,9 @@ public class AppointmentDialog extends JDialog {
 	private AppointmentDialog(Dialog frame, AppointmentTemplate apptTmpl) {
 		super(frame, true);
 		init(new RefAppointment(new Date(), apptTmpl), false);
+	}
+	
+	public JRadioButton getButtonSelection(){
+		return buttonSelection;
 	}
 }

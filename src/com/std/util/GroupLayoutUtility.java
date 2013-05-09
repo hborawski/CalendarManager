@@ -62,10 +62,4 @@ public class GroupLayoutUtility {
 		layout.setHorizontalGroup(createNewSeqGroup(layout, v));
 		layout.setVerticalGroup(createNewSeqGroup(layout, h));
 	}
-
-	public static void addToGroups(GroupLayout northLayout,
-			Component[][] components, ButtonGroup rbGroup) {
-		// TODO Auto-generated method stub
-		
-	}
 }

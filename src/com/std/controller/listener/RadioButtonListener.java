@@ -3,11 +3,22 @@ package com.std.controller.listener;
 import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
 
+import com.std.model.appointment.AppointmentTemplate;
+import com.std.model.appointment.ImportanceLevel;
+import com.std.model.appointment.RefAppointment;
+
 public class RadioButtonListener implements ItemListener{
 	int eventImportance = 0;
-	@Override
+	AppointmentTemplate tem;
+	RefAppointment appt;
+	public RadioButtonListener(RefAppointment appt){
+		this.appt = appt;
+		tem = appt.getTemplate();
+	}
+	
 	public void itemStateChanged(ItemEvent e) {
 		String item = e.getItem().toString();
+		
 		if (item.equals("highImportance")){
 			//set a variable equal to an integer for the model to use
 			eventImportance = 3;
@@ -21,11 +32,10 @@ public class RadioButtonListener implements ItemListener{
 		else{
 			eventImportance = 0;
 		}
-	}
-	
-	public int getEventImportance(){
-		System.out.print(eventImportance);
-		return eventImportance;
+		System.out.println(eventImportance);
+		ImportanceLevel dec = new ImportanceLevel(tem, eventImportance);
+		System.out.println(dec.getImportance());
+		appt.setTemplate(dec);
 	}
 
 	

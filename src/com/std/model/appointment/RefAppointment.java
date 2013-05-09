@@ -119,7 +119,7 @@ public class RefAppointment extends java.util.Observable implements Serializable
 	 * @param t the new AppointmentTemplate associated with this RefAppointment
 	 * @throws NullPointerException if AppointmentTemplate is null
 	 */
-	private void setTemplate(AppointmentTemplate t){
+	public void setTemplate(AppointmentTemplate t){
 		if(t == null)
 			throw new NullPointerException();
 		parent = t;
@@ -235,7 +235,7 @@ public class RefAppointment extends java.util.Observable implements Serializable
 	public RecurrencePattern getPattern() {
 		return parent.getPattern();
 	}
-
+	
 	/**
 	 * Sets the pattern of the appointment, and
 	 * notifies observers if a change has taken
@@ -277,6 +277,8 @@ public class RefAppointment extends java.util.Observable implements Serializable
 		return parent.getTitle();
 	}
 
+	
+	
 	/**
 	 * Sets the title of the appointment, and
 	 * notifies observers if a change has taken
@@ -350,7 +352,6 @@ public class RefAppointment extends java.util.Observable implements Serializable
 		ostream.writeObject(getTemplate());
 		ostream.writeObject(getStartDate());
 	}
-	
 	
 
 }

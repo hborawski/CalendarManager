@@ -20,7 +20,7 @@ public class ImportanceLevel extends AppointmentDecorator {
 	}
 
 	public String getDescription(){
-		String out = "Importance: ";
+		String out = "\nImportance: ";
 		if(importance == 1){
 			out += "low\n";
 		} else if(importance == 2){
